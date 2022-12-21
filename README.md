@@ -83,9 +83,8 @@
  </details>
 
   ## Testing the application ## 
- ### Transaction approved user story
  1) Transaction is approved and my account balance is reduced by the withdrawn amount. 
- the AccountDB on the right is before the transaction made
+    the AccountDB on the right is before the transaction made
  <img src="https://user-images.githubusercontent.com/56139834/208992944-a9f59d27-a2ae-44fc-97d4-a5f5f3084324.PNG" width="700" height="500">
  2) Exceed the maximum amount user story
  <img src="https://user-images.githubusercontent.com/56139834/208993244-86cd78f9-625e-4931-a117-0fd484ea63fe.PNG" width="700" height="500">
