@@ -315,15 +315,3 @@ while(!feof(fptr))
 }
 }
 
-
-void mains(){
-	ST_accountsDB_t ac;
-	ST_transaction_t t;
-	//saveTransaction(&t);
-	//listSavedTransactionsTest();
-	//recieveTransactionDataTest();
-	saveTransactionTest();
-	listSavedTransactions();
-	//listSavedTransactionsTest();
-	getchar();getchar();
-}

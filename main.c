@@ -6,6 +6,4 @@
 
 void main(){
 	appStart();
-	getchar();getchar();
-
 }

@@ -30,7 +30,7 @@ void isCardExpriedTest(void){
 	EN_cardError_t results[4]={CARD_OK,WRONG_EXP_DATE,CARD_OK,WRONG_EXP_DATE};
 	int i; 
 	puts("Tester Name: Bassem Yousry");
-	puts("Function Name: getTransactionDateTest");
+	puts("Function Name: isCardExpriedTest");
 	for ( i = 1; i < 5; i++){
 		printf("Test Case %i:\n",i);
 		memcpy(t.transactionDate,TermDate[i-1],10);
@@ -214,16 +214,4 @@ EN_terminalError_t isValidCardPAN(ST_cardData_t *cardData){
 		return TERMINAL_OK;
 	}
 	return INVALID_CARD;
-}
-void maine(){
-	ST_cardData_t c;
-isValidCardPANTest();
-
-	//setMaxAmountTest();
-	//isBelowMaxAmountTest();
-	//getTransactionAmountTest();
-	//isCardExpriedTest();
-	//getTransactionDate(&s);
-	
-	getchar();getchar();getchar();getchar();
 }
