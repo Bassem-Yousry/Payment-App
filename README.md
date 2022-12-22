@@ -85,6 +85,7 @@
  </details>
 
   ## Testing the application ## 
+  first u need to comment the preprocessor directives in card.h & terminal.h to exit test mode
  1) Transaction is approved and my account balance is reduced by the withdrawn amount. 
     the AccountDB on the right is before the transaction made
  <img src="https://user-images.githubusercontent.com/56139834/208992944-a9f59d27-a2ae-44fc-97d4-a5f5f3084324.PNG" width="700" height="500">
