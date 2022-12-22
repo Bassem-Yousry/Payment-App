@@ -1,7 +1,9 @@
 # Payment-App
   A simple app that implements the SALE transaction
   It includes Luhn card PAN for validation
+  
  https://www.youtube.com/playlist?list=PLR1_kFCzdgsXmWhS-8S2-GGysLTitpXRJ
+ 
  ## Flow Chart
  ![{4ED04FED-06D2-44B9-89ED-2CDC35C720DC} png](https://video.udacity-data.com/topher/2022/June/62bc647c_payment-flowchart/payment-flowchart.jpeg)
  ## Screenshots 
