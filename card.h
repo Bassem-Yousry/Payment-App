@@ -1,9 +1,11 @@
 #ifndef card_H
 #define card_H
+
 // to enter test mode uncomment the directives below
 //#define NAME_TEST
 //#define EXP_TEST 
 //#define PAN_TEST
+
 typedef  unsigned char uint8_t;
 
 typedef enum EN_cardError_t

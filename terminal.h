@@ -1,13 +1,16 @@
 #ifndef terminal_h
-//#define terminaL_h
+#define terminaL_h
 // to enter test mode uncomment the directives below
 
 //#define TransactionDateTEST
 //#define CardExpriedTest
 //#define TransactionAmountTEST
-#define BelowMaxTest
-#define MaxAmountTest
+//#define BelowMaxTest
+//#define MaxAmountTest
+
+
 #define  TerminalMaxAmount 1000000
+
 typedef struct ST_terminalData_t
 {
      float transAmount;

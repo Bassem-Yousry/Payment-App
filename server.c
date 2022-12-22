@@ -69,7 +69,7 @@ void isAmountAvailableTest(void){
 	int i;
 	ST_terminalData_t t;	
 	ST_accountsDB_t d;
-	EN_serverError_t results[4]={LOW_BALANCE ,LOW_BALANCE,SERVER_OK,SERVER_OK};	
+	EN_serverError_t results[4]={SERVER_OK ,LOW_BALANCE,LOW_BALANCE,SERVER_OK};	
 	char*pan[4]={"8989374615436851","5807007076043875","4012888888881881","4833120034123456"};
 	setAmount(&t,2000);
 	puts("Tester Name: Bassem Yousry");
@@ -176,7 +176,6 @@ uint8_t updateBalanceOfAccountInDB(char *Pan,float NewBalance){
 		if (!strcmp(PanDB,Pan))
 		 {
 			fseek( fptr, lineIndexArr[Lineindex], SEEK_SET );	//move pointer to the beginning of the line
-			//printf("%ld \n", ftell(fptr));//print poosition of the pointer
 			/*delete data line*/
 			while (count<strlen(line))
 			{
