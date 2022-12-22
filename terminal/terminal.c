@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "card.h"
+#include "..\card\card.h"
 #include "terminal.h"
 #include<time.h>
 #include<string.h>

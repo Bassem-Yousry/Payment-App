@@ -1,8 +1,11 @@
 #include<stdio.h>
 #include<string.h>
-#include "card.h"
-#include "terminal.h"
-#include "server.h"
+
+#include"..\card\card.h"
+#include"..\terminal\terminal.h"
+#include"..\server\server.h"
+#include"app.h"
+
 void appStart(void){
 	ST_cardData_t cardData;
 	ST_terminalData_t termData;

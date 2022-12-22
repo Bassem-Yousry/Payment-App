@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<string.h>
-#include "card.h"
-#include "terminal.h"
-#include "server.h"
+#include"..\card\card.h"
+#include"..\terminal\terminal.h"
+#include"server.h"
 int Num_of_trans=0;
 
 void isBlockedAccountTest(void){
