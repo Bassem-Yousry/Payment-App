@@ -1,11 +1,14 @@
 # Payment-App
   A simple app that implements the SALE transaction
   It includes Luhn card PAN for validation
-  
  https://www.youtube.com/playlist?list=PLR1_kFCzdgsXmWhS-8S2-GGysLTitpXRJ
  ## Flow Chart
  ![{4ED04FED-06D2-44B9-89ED-2CDC35C720DC} png](https://video.udacity-data.com/topher/2022/June/62bc647c_payment-flowchart/payment-flowchart.jpeg)
  ## Screenshots 
+ - ### folder structure
+ 
+  <img src="https://user-images.githubusercontent.com/56139834/209214657-474c11b8-b445-4e0c-996e-4dc4edc8edca.PNG" width="300" height="500">
+  
  - ### Card Module
  #### Constraints 
      1) Card Holder Name must be 20 characters minimum and 24 characters maximum .
