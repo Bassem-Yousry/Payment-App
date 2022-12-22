@@ -30,17 +30,20 @@
  
  ## Testing Functions
      
-   **to enter test mode you need to uncomment the preproccessor directive for each function in the module header file**
+   **to enter test mode you need to uncomment the preproccessor directive for each function in the module header file **
  <details>
            <summary>Card Module</summary><p>  
 
 - `void getCardHolderNameTest(void)`
+  first u need to define NAME_TEST in header file to get the test case from a global var not asking the user to input the name
  <img src="https://user-images.githubusercontent.com/56139834/208899334-c523fc64-ce85-4ec5-a039-9ee268758899.PNG" width="700" height="500">
  
 - `void getCardExpiryDateTest(void)`
+  define EXP_TEST
  <img src="https://user-images.githubusercontent.com/56139834/208982646-0edc412e-04e9-4509-b6d5-7e0c649c4339.PNG" width="700" height="500">
 
 - `void getCardPANTest(void)`
+  define PAN_TEST
  <img src="https://user-images.githubusercontent.com/56139834/208984246-5621abcf-ca36-42c7-952b-769ac4fa188a.PNG" width="700" height="500">
  </p>
  </details>
@@ -90,7 +93,9 @@
  </details>
 
   ## Testing the application ## 
+  
   **First u need to comment the preprocessor directives in card.h & terminal.h to exit test mode **
+  
  1) Transaction is approved and my account balance is reduced by the withdrawn amount. 
     the AccountDB on the right is before the transaction made
  <img src="https://user-images.githubusercontent.com/56139834/208992944-a9f59d27-a2ae-44fc-97d4-a5f5f3084324.PNG" width="700" height="500">
